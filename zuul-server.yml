@@ -16,3 +16,9 @@ eureka:
   instance:
     preferIpAddress: true
 
+
+zuul:
+  routes:
+    first-client:
+      serviceId: first-client
+
